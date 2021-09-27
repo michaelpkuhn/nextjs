@@ -5,7 +5,7 @@ import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
 import Date from '../components/date'
 
-
+// adds prop data to state
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData()
   return {
@@ -22,6 +22,7 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
+      {/* Introduction */}
       <section className={utilStyles.headingMd}>
         <p> Experienced manager and data analyst with a background in analytical research, project coordination and administration. Teaching skills in Excel, VBA, Python, SQL and other methods at Northwestern University’s Data Science Bootcamp. Committed to improving operations and customer service experiences. Possesses creative problem solving ability and diligence that produces tangible results. Excited to forward the mission and be a part of the team. </p>
         <p>
@@ -29,6 +30,7 @@ export default function Home({ allPostsData }) {
           <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
         </p>
       </section>
+      {/* Posts */}
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
