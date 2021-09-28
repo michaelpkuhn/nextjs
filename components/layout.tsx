@@ -3,11 +3,18 @@ import Image from 'next/image'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
+import React from 'react'
 
 const name = 'Michael Kuhn'
 export const siteTitle = 'Michael\'s NextJS Site!'
 
-export default function Layout({ children, home }) {
+export default function Layout({
+  children,
+  home 
+}: {
+  children: React.ReactNode
+  home?: Boolean
+}) {
   return (
     <div className={styles.container}>
       <Head>
