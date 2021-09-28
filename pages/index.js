@@ -24,10 +24,10 @@ export default function Home({ allPostsData }) {
       </Head>
       {/* Introduction */}
       <section className={utilStyles.headingMd}>
-        <p> Experienced manager and data analyst with a background in analytical research, project coordination and administration. Teaching skills in Excel, VBA, Python, SQL and other methods at Northwestern University’s Data Science Bootcamp. Committed to improving operations and customer service experiences. Possesses creative problem solving ability and diligence that produces tangible results. Excited to forward the mission and be a part of the team. </p>
+        <p>Experienced manager and data analyst with a background in analytical research, project coordination and administration. Taught advanced skills in Excel, VBA, Python, SQL and other tools at Northwestern University’s Data Science Bootcamp. Possesses creative problem solving ability and diligence that produces tangible results.</p>
         <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+          (This is a sample website - built with{' '}
+          <a href="https://nextjs.org/learn">Next.js</a>.)
         </p>
       </section>
       {/* Posts */}
