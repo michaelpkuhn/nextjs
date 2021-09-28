@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-function IndexPage() {
+function MetaPage() {
   return (
     <div>
       <Head>
@@ -13,4 +13,4 @@ function IndexPage() {
   )
 }
 
-export default IndexPage
+export default MetaPage
